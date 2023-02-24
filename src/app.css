@@ -1,0 +1,8 @@
+.App {
+    background-color: var(--color-bg);
+    color:#fff;
+    height: 100vh;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+}
+

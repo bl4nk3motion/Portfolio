@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    width: auto;
+    background: var(--color-bg-body);
+    position: relative;
+    height: 80vh;
+    gap: 5rem;
+}
+
+.moreInfo {
+    font-size: 2rem;
+}
+
+.moreInfo strong {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .1em;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.model img{
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    z-index: -1;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 10px;
+}
+
+/* .facebook {
+    color: #3b5998;
+}
+
+.instagram {
+    color: #feda75;
+}
+
+.twitter {
+    color: #00acee;
+}
+
+.youtube {
+    color: #FF0000;
+} */

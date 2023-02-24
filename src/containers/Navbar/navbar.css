@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 15vh;
+}
+
+.logo {
+    flex: 1;
+    font-family: 'Lilita One', cursive;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.contain {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contactMe {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contactMe button {
+    color: #fff;
+    background-color: #008CBA;
+    border-radius: .5rem;
+    border: none;
+    padding: .2rem;
+    width: auto;
+}
+
+button:hover {
+    background-color: #0159ac;
+}
+
+.container a {
+    text-decoration: none;
+    color: #fff;
+}

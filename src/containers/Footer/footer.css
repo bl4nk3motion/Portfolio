@@ -1,0 +1,7 @@
+.footer {
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    height: 5vh;
+}
